@@ -14,8 +14,10 @@ $(function() {
         });
         
     })
-    .catch(
+    .catch(function(response){
         alert('Error loading users')
+        console.log(response)
+    }
     )
 })
 
