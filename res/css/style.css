@@ -219,3 +219,8 @@ nav div.avatar-container {
 .avatar{
     cursor: pointer;
 }
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
