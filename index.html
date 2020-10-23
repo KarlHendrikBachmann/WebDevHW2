@@ -5,7 +5,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="res/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="res/scripts.js"></script>
+    <script type="text/javascript" src="res/js/loadPosts.js"></script>
+    <script src="res/js/User.js"></script>
+    <script src="res/js/scriptIndex.js"></script>
     <title>postIt! Just Post It</title>
   </head>
   <body>
@@ -21,6 +23,15 @@
           <img src="res/images/avatar.png" class="avatar" alt="Me">
         </div>
       </nav>
+      <div id="profile-info">
+        <text id="profile-name">John Doe</text>
+        <br>
+        <text id="profile-email">johndoe@gmail.com</text>
+        <hr>
+        <a href="browse.html">Browse</a>
+        <hr>
+        <a href="login.html">Log out</a>
+      </div>
     </header>
     <section class="main-container">
       <div class="post">
