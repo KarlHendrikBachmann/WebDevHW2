@@ -44,7 +44,9 @@ function constructPost(object) {
                 if (object['media']['type'] == 'video') {
                     dataObject +=
                     "<div class='post-image'>"+
-                    "<video src='"+object['media']['url']+"' alt=''>"+
+                    "<video controls>"+
+                    "<source src="+object['media']['url']+" type='video/mp4'>"
+                    "</video>"+
                     "</div>";
                 }
                 if (object['media']['type'] == 'image') {
